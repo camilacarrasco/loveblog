@@ -1,9 +1,32 @@
-.barra {
-  width: 900px;
-  height: 100px;
-  background-color: #F63C23; }
+/*
+Error: Invalid CSS after "...variables.scss'": expected selector or at-rule, was "@import 'helper..."
+        on line 2 of css/sass/style.scss
 
-.foot {
-  background-color: #E3411B; }
+1: @import 'helpert/_variables.scss'
+2: @import 'helpert/_mixins.scss';
+3: @import 'helpert/_style.scss';
+4: @import 'base/_global.scss';
+5: @import 'layout/_header.scss';
+6: @import 'layout/_footer.scss';
+7: @import 'pages/_home.scss';
 
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+css/sass/style.scss:2
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1189:in `expected'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:1125:in `expected'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/scss/parser.rb:42:in `parse'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:406:in `_to_tree'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:52:in `parse'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/lib/sass/exec/base.rb:19:in `parse!'
+C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.4.22/bin/sass:13:in `<top (required)>'
+C:/Ruby200-x64/bin/sass:23:in `load'
+C:/Ruby200-x64/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...variables.scss'\": expected selector or at-rule, was \"@import 'helper...\"\A         on line 2 of css/sass/style.scss\A \A 1: @import 'helpert/_variables.scss'\A 2: @import 'helpert/_mixins.scss';\A 3: @import 'helpert/_style.scss';\A 4: @import 'base/_global.scss';\A 5: @import 'layout/_header.scss';\A 6: @import 'layout/_footer.scss';\A 7: @import 'pages/_home.scss';"; }
